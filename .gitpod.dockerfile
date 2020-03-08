@@ -6,8 +6,4 @@ RUN set -e; \
     apt-get install -y tshark; \
     pip install modbus_tk;
 
-WORKDIR /root
-
-COPY . .
-
 CMD ["/bin/bash"]
